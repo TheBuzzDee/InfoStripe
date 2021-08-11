@@ -1,0 +1,44 @@
+.InfoStripe {
+  --d:0px;  /* folded part */
+  --c:white; /* color */
+  --f:16px; /* ribbon font-size */
+  
+
+	z-index: 10001;
+	display: none;
+	
+	
+}
+
+.InfoStripe::before {
+  content: attr(data-ribbon);
+  font-size:var(--f);
+
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(29.29%, -100%) rotate(45deg);
+  transform-origin: bottom left;
+  padding: 5px 35px calc(var(--d) + 5px);
+  background: linear-gradient(rgba(0,0,0,0.5) 0 0) bottom/100% var(--d) no-repeat var(--c);
+
+
+  clip-path: polygon(0 0,100% 0,100% 100%,calc(100% - var(--d)) calc(100% - var(--d)),var(--d) calc(100% - var(--d)) , 0 100%);
+
+
+  -webkit-mask: 
+      linear-gradient( 135deg, transparent calc(50% - var(--d)*0.707),#fff 0) bottom left,
+      linear-gradient(-135deg, transparent calc(50% - var(--d)*0.707),#fff 0) bottom right;
+  -webkit-mask-size:300vmax 300vmax;
+  -webkit-mask-composite: destination-in;
+   mask-composite: intersect;
+}
+
+
+.left::before {
+  left: 0;
+  right: auto;
+  transform: translate(-29.29%, -100%) rotate(-45deg);
+  transform-origin: bottom right;
+}
