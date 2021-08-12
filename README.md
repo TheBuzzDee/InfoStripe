@@ -16,6 +16,8 @@ InfoStripe
 InfoStripe is a plugin for Bludit that adds a fully responsive CSS-Ribbon in a corner of your site.
 
 
+
+
 Settings
 ========
 
@@ -28,9 +30,6 @@ Settings
 | Font-Size | Set the size of your font. | `16` |
 | Text | Text which is shown on your ribbon | `Welcome to my website` |
 | Horizontal orientation | Choose if your ribbon is displayed on the left or right upper corner of your website. | `Left` or `Right`  |
-
-
-
 
 
 
