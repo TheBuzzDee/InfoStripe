@@ -1,6 +1,6 @@
-[![GitHub license](https://img.shields.io/github/license/philippd1/bludit-auto-update.svg?style=flat-square)](https://github.com/TheBuzzDee/InfoStripe/blob/master/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/philippd1/bludit-auto-update.svg?style=flat-square)](https://github.com/TheBuzzDee/InfoStripe/issues)
-![GitHub repo size in bytes](https://img.shields.io/github/repo-size/philippd1/bludit-auto-update.svg?style=flat-square)
+[![GitHub license](https://img.shields.io/github/license/TheBuzzDee/InfoStripe.svg?style=flat-square)](https://github.com/TheBuzzDee/InfoStripe/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/TheBuzzDee/InfoStripe.svg?style=flat-square)](https://github.com/TheBuzzDee/InfoStripe/issues)
+![GitHub repo size in bytes](https://img.shields.io/github/repo-size/TheBuzzDee/InfoStripe.svg?style=flat-square)
 
 <div align="center">
   <h1>InfoStripe</h1>
