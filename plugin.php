@@ -39,7 +39,7 @@ class pluginInfoStripe extends Plugin {
 		
 	
 		$html .= '<div>';
-		$html .= '<label>'.$L->get('Fontsize').'</label>';
+		$html .= '<label>'.$L->get('Font-Size').'</label>';
 		$html .= '<input name="fontsize" id="InfoStripeFontSize" type="number" value="'.$this->getValue('fontsize').'">';
 		$html .= '</div>';
 
@@ -51,7 +51,7 @@ class pluginInfoStripe extends Plugin {
 		
 
 		$html .= '<div>';
-		$html .= '<label for="display">'.$L->get('Horizontal orientation').'</label>';
+		$html .= '<label for="display">'.$L->get('Horizontal Orientation').'</label>';
 		$html .= '<select name="display">';		
 	        $displayOptions = array( 'left'=> $L->get('Left'), 'right'=> $L->get('Right') );
 	        foreach($displayOptions as $displaytext=>$value)
