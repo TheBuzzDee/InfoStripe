@@ -1,20 +1,24 @@
 .InfoStripe {
   --d:0px;  /* folded part */
-  --c:white; /* color */
+  --c:#d00000; /* color */
   --f:16px; /* ribbon font-size */
+  --g:#ffffff; /* font-color */
   
-
-	z-index: 10001;
-	display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2147483647;
 	
 	
 }
 
+
+
 .InfoStripe::before {
   content: attr(data-ribbon);
-  font-size:var(--f);
-
-
+  font-size:var(--f);  
+  color:var(--g);
   position: absolute;
   top: 0;
   right: 0;
@@ -41,4 +45,8 @@
   right: auto;
   transform: translate(-29.29%, -100%) rotate(-45deg);
   transform-origin: bottom right;
+}
+
+.right::before {
+ /*dummy*/
 }
