@@ -17,7 +17,6 @@ InfoStripe is a plugin for Bludit that adds a fully responsive CSS-Ribbon in a c
 
 
 
-
 Settings
 ========
 
